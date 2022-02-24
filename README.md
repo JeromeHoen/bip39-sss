@@ -24,7 +24,7 @@ Never ever enter your seed on a computer that doesn't run in a secure environmen
 
 2. **Verify** the software's release signatures from an alternative device and internet connection (e.g., your smartphone). This makes sure you are not using a malicious program, both for the linux live distribution and this source code.
 
-The SHA-1 checksum of the directory [src](/src) is:
+The SHA256 checksum of the directory [src](/src) is:
 ```
 9ED8B9E4257171EC3884A574FAB388A9D9CF433BA2C316D7C8A3EF55FA28F850
 ```
