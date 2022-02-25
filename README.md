@@ -3,6 +3,9 @@ This repository is a proof of concept to use the Shamir's secret scheme applied 
 
 This software is provided free of use and comes with no warranty, **use at you own risk**.
 
+![bip39-sss](https://user-images.githubusercontent.com/45117380/155757817-ec7cc868-e324-46b6-8b5a-ece5470d4504.png)
+
+
 # Why?
 You generated a HD wallet offline or purcharsed a hardware wallet, e.g. a Ledger or a Trezor. You have a list of 12 or 24 words as a backup to your wallet. If you lose your seed phrase, you won't be able to recover your coins. So now you are facing a security issue for yourself. You must hide your backup and everyone who knows about it could steal your funds. What if you lose your piece of paper in a fire? How would you be sure that your funds are passed on to your children when you die?
 The most common solutions to this problem are:
