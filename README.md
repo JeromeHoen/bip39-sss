@@ -3,7 +3,7 @@ This repository is a proof of concept to use the Shamir's secret scheme applied 
 
 This software is provided free of use and comes with no warranty, **use at you own risk**.
 
-![bip39-sss](https://user-images.githubusercontent.com/45117380/155757817-ec7cc868-e324-46b6-8b5a-ece5470d4504.png)
+![bip39-sss schema 2 out of 3](doc/2-out-of-3.png)
 
 
 # Why?
@@ -27,9 +27,9 @@ Never ever enter your seed on a computer that doesn't run in a secure environmen
 
 2. **Verify** the software's release signatures from an alternative device and internet connection (e.g., your smartphone). This makes sure you are not using a malicious program, both for the linux live distribution and this source code.
 
-The SHA256 checksum of the directory [src](/src) is:
+The SHA256 checksum of the directory [src](/src) is (data only):
 ```
-9ED8B9E4257171EC3884A574FAB388A9D9CF433BA2C316D7C8A3EF55FA28F850
+BF2302754FF018934952E47C75661EDBFFE42C66DF113ED13CDE196326A72AFC
 ```
 
 3. Search for a tutorial on how to boot to a USB key on your machine.
