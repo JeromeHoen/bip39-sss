@@ -103,7 +103,7 @@ The program will guide you through the step to get back the main seed with your 
 force hard indoor always action leg board leg build derive appear cream
 ```
 
-# Contributions
+# Credits
 Shamir's secret share with integers was modified from [the Wikipedia page](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing)
 [Mnemonic class](/src/mnemonic.py) is copied from the [trezor/python-mnemonic](https://github.com/trezor/python-mnemonic) v0.20. It's copied to avoid dependencies and to make it simpler to run the code offline.
 
