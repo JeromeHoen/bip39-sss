@@ -50,13 +50,13 @@ def terminal_print(text, screen_width=None):
     if not screen_width:
         screen_width = get_terminal_size((80, 20)).columns
 
-        # have at least on space on the right of the screen
-        # so that the words won't be joined back when the width
-        # of the terminal is increased
-        lines = wrap(text, screen_width - 1)
+    # have at least on space on the right of the screen
+    # so that the words won't be joined back when the width
+    # of the terminal is increased
+    lines = wrap(text, screen_width - 1)
 
-        # fill the right of the screen with spaces
-        lines = [line.ljust(screen_width - 1, " ") for line in lines]
+    # fill the right of the screen with spaces
+    lines = [line.ljust(screen_width - 1, " ") for line in lines]
 
     print(" ".join(lines))
 
