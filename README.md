@@ -8,6 +8,7 @@ This software is provided free of use and comes with no warranty, **use at you o
 
 # Why?
 You generated a HD wallet offline or purcharsed a hardware wallet, e.g. a Ledger or a Trezor. You have a list of 12 or 24 words as a backup to your wallet. If you lose your seed phrase, you won't be able to recover your coins. So now you are facing a security issue for yourself. You must hide your backup and everyone who knows about it could steal your funds. What if you lose your piece of paper in a fire? How would you be sure that your funds are passed on to your children when you die?
+
 The most common solutions to this problem are:
 * Create multiple copies of your seed phrase. The more copies you create, the bigger the risk that one of them is discovered and your funds stolen or seized.
 * Split your seed phrase in multiple partial copies. If you have a list of 24 words, you may be tempted to use this scheme with 3 shares, e.g. share 1 has words from 1 to 16, share 2 has words from 9 to 24 and share 3 has words 1 to 8 and 17 to 24. You need any 2 of the 3 shares to recover your seed phrase. You keep one, you give one to your significant other, and put one in a safe-deposit box for instance. The scheme is simple enough but now a share holder has a lot of information about your original seed phrase. The security of your backup is reduced by many orders of magnitude. What if you have only 12 words? With only 4 words to guess, there are only about 1 trillion valid possibilities remaining and your wallet is now vulnerable to a brute force attack by any one who accessed one of the share. What if you want another repartition, like 3 out of 5 shares?
@@ -104,7 +105,8 @@ force hard indoor always action leg board leg build derive appear cream
 ```
 
 # Credits
-Shamir's secret share with integers was modified from [the Wikipedia page](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing)
+Shamir's secret share with integers was modified from [the Wikipedia page](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing).
+
 [Mnemonic class](/src/mnemonic.py) is copied from the [trezor/python-mnemonic](https://github.com/trezor/python-mnemonic) v0.20. It's copied to avoid dependencies and to make it simpler to run the code offline.
 
 # Final note
