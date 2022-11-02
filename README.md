@@ -28,9 +28,9 @@ Never ever enter your seed on a computer that doesn't run in a secure environmen
 
 2. **Verify** the software's release signatures from an alternative device and internet connection (e.g., your smartphone). This makes sure you are not using a malicious program, both for the linux live distribution and this source code.
 
-The SHA256 checksum of the directory [src](/src) is (data only):
+The SHA256 checksum (data only) of the directory [src](/src) is:
 ```
-BF2302754FF018934952E47C75661EDBFFE42C66DF113ED13CDE196326A72AFC
+18EAB8F012DCCCC9ACD55510BEF8A808DDDE3D1D36D36E89AB6589FEFB2D24C1
 ```
 
 3. Search for a tutorial on how to boot to a USB key on your machine.
